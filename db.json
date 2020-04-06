@@ -1,8 +1,167 @@
 {
   "ShopData": [
     {
-      "id": 23921489,
+      "id": 1336,
       "name": "בית הבשר של גמליאל",
+      "description": "״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!",
+      "address": "אצל 85, רמת-גן",
+      "last_delivery_time": "16:00",
+      "products": [
+        {
+          "id": "1",
+          "title": "עגבנייה",
+          "description": "",
+          "price": 8.67,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1,
+          "image" : "tomato.png",
+          "itemsCountForShoppingCart" : 0
+        },
+        {
+          "id": "2",
+          "title": "מלפפון",
+          "description": "",
+          "price": 11.2,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1,
+          "image" : "cucumber.png",
+          "itemsCountForShoppingCart" : 0
+        },
+        {
+          "id": "3",
+          "title": "חציל",
+          "description": "",
+          "price": 9.6,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1,
+          "image" : "eggplanet.png",
+          "itemsCountForShoppingCart" : 0
+        },
+        {
+          "id": "4",
+          "title": "פלפל אדום",
+          "description": "",
+          "price": 8.11,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1,
+          "image" : "red_pepper.png",
+          "itemsCountForShoppingCart" : 0
+        },
+        {
+          "id": "5",
+          "title": "קישוא",
+          "description": "",
+          "price": 9.43,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1,
+          "image" : "zucchini.png",
+          "itemsCountForShoppingCart" : 0
+        },
+        {
+          "id": "6",
+          "title": "פינק ליידי",
+          "description": "",
+          "price": 25.6,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 2,
+          "image" : "apple_pink_lady.png",
+          "itemsCountForShoppingCart" : 0
+        },
+        {
+          "id": "7",
+          "title": "פטריות שמפניון",
+          "description": "",
+          "price": 14.43,
+          "unit_type": 2,
+          "is_available": true,
+          "category": 3,
+          "image" : "champignon.png",
+          "itemsCountForShoppingCart" : 0
+        },
+        {
+          "id": "8",
+          "title": "קרמבולה",
+          "description": "",
+          "price": 37.2,
+          "unit_type": 2,
+          "is_available": true,
+          "category": 4,
+          "image" : "",
+          "itemsCountForShoppingCart" : 0
+        }
+      ],
+      "working_days": [
+        {
+          "day": "sunday",
+          "start": "00:00",
+          "end": "00:00",
+          "enabled": false
+        },
+        {
+          "day": "monday",
+          "start": "8:00",
+          "end": "18:00",
+          "enabled": true
+        },
+        {
+          "day": "tuesday",
+          "start": "8:00",
+          "end": "18:00",
+          "enabled": true
+        },
+        {
+          "day": "wednesday",
+          "start": "8:00",
+          "end": "18:00",
+          "enabled": true
+        },
+        {
+          "day": "thrusday",
+          "start": "8:00",
+          "end": "18:00",
+          "enabled": true
+        },
+        {
+          "day": "friday",
+          "start": "08:00",
+          "end": "14:00",
+          "enabled": true
+        },
+        {
+          "day": "saturday",
+          "start": "00:00",
+          "end": "00:00",
+          "enabled": false
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": "ירקות"
+        },
+        {
+          "id": 2,
+          "name": "פירות"
+        },
+        {
+          "id": 3,
+          "name": "ארוזים"
+        },
+        {
+          "id": 4,
+          "name": "מיוחדים"
+        }
+      ]
+    },
+    {
+      "id": 1337,
+      "name": "מור פירות וירקות",
       "description": "״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!",
       "address": "אצל 85, רמת-גן",
       "last_delivery_time": "16:00",
