@@ -6,7 +6,7 @@
       "description": "״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!",
       "address": "אצל 85, רמת-גן",
       "last_delivery_time": "16:00",
-      "image" : "image_veg.png"
+      "image" : "image_veg.png",
       "products": [
         {
           "id": "1",
@@ -158,7 +158,7 @@
       "description": "״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!",
       "address": "אצל 85, רמת-גן",
       "last_delivery_time": "16:00",
-      "image" : "image_butcher.png"
+      "image" : "image_butcher.png",
       "products": [
         {
           "id": "1",
