@@ -10,7 +10,7 @@
         {
           "id": "1",
           "title": "עגבנייה",
-          "description": null,
+          "description": "",
           "price": 8.67,
           "unit_type": 1,
           "is_available": true,
@@ -19,7 +19,7 @@
         {
           "id": "2",
           "title": "מלפפון",
-          "description": null,
+          "description": "",
           "price": 11.2,
           "unit_type": 1,
           "is_available": true,
@@ -28,7 +28,7 @@
         {
           "id": "3",
           "title": "חציל",
-          "description": null,
+          "description": "",
           "price": 9.6,
           "unit_type": 1,
           "is_available": true,
@@ -37,7 +37,7 @@
         {
           "id": "4",
           "title": "פלפל אדום",
-          "description": null,
+          "description": "",
           "price": 8.11,
           "unit_type": 1,
           "is_available": true,
@@ -46,7 +46,7 @@
         {
           "id": "5",
           "title": "קישוא",
-          "description": null,
+          "description": "",
           "price": 9.43,
           "unit_type": 1,
           "is_available": true,
@@ -55,7 +55,7 @@
         {
           "id": "6",
           "title": "פינק ליידי",
-          "description": null,
+          "description": "",
           "price": 25.6,
           "unit_type": 1,
           "is_available": true,
@@ -64,7 +64,7 @@
         {
           "id": "7",
           "title": "פטריות שמפניון",
-          "description": null,
+          "description": "",
           "price": 14.43,
           "unit_type": 2,
           "is_available": true,
@@ -73,7 +73,7 @@
         {
           "id": "8",
           "title": "קרמבולה",
-          "description": null,
+          "description": "",
           "price": 37.2,
           "unit_type": 2,
           "is_available": true,
