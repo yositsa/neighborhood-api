@@ -1,143 +1,147 @@
 {
-  "id": 23921489,
-  "name": "\"בית הבשר של גמליאל\"",
-  "description": "\"״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!\"",
-  "address": "\"אצ\"ל 85, רמת-גן\"",
-  "last_delivery_time": "16:00",
-  "products": [
+  "ShopData": [
     {
-      "id": "1",
-      "title": "\"עגבנייה\"",
-      "description": null,
-      "price": 8.67,
-      "unit_type": 1,
-      "is_available": true,
-      "category": 1
-    },
-    {
-      "id": "2",
-      "title": "\"מלפפון\"",
-      "description": null,
-      "price": 11.2,
-      "unit_type": 1,
-      "is_available": true,
-      "category": 1
-    },
-    {
-      "id": "3",
-      "title": "\"מלפפון\"",
-      "description": null,
-      "price": 11.2,
-      "unit_type": 1,
-      "is_available": true,
-      "category": 1
-    },
-    {
-      "id": "4",
-      "title": "\"פלפל אדום\"",
-      "description": null,
-      "price": 8.11,
-      "unit_type": 1,
-      "is_available": true,
-      "category": 1
-    },
-    {
-      "id": "5",
-      "title": "\"קישוא\"",
-      "description": null,
-      "price": 9.43,
-      "unit_type": 1,
-      "is_available": true,
-      "category": 1
-    },
-    {
-      "id": "6",
-      "title": "\"פינק ליידי\"",
-      "description": null,
-      "price": 25.6,
-      "unit_type": 1,
-      "is_available": true,
-      "category": 2
-    },
-    {
-      "id": "7",
-      "title": "\"פטריות שמפניון\"",
-      "description": null,
-      "price": 14.43,
-      "unit_type": 2,
-      "is_available": true,
-      "category": 3
-    },
-    {
-      "id": "8",
-      "title": "\"קרמבולה\"",
-      "description": null,
-      "price": 37.2,
-      "unit_type": 2,
-      "is_available": true,
-      "category": 4
-    }
-  ],
-  "working_days": [
-    {
-      "day": "sunday",
-      "start": "00:00",
-      "end": "00:00",
-      "enabled": false
-    },
-    {
-      "day": "monday",
-      "start": "8:00",
-      "end": "18:00",
-      "enabled": true
-    },
-    {
-      "day": "tuesday",
-      "start": "8:00",
-      "end": "18:00",
-      "enabled": true
-    },
-    {
-      "day": "wednesday",
-      "start": "8:00",
-      "end": "18:00",
-      "enabled": true
-    },
-    {
-      "day": "thrusday",
-      "start": "8:00",
-      "end": "18:00",
-      "enabled": true
-    },
-    {
-      "day": "friday",
-      "start": "08:00",
-      "end": "14:00",
-      "enabled": true
-    },
-    {
-      "day": "saturday",
-      "start": "00:00",
-      "end": "00:00",
-      "enabled": false
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "\"ירקות\""
-    },
-    {
-      "id": 2,
-      "name": "\"פירות\""
-    },
-    {
-      "id": 3,
-      "name": "\"ארוזים\""
-    },
-    {
-      "id": 4,
-      "name": "\"מיוחדים\""
+      "id": 23921489,
+      "name": "\"בית הבשר של גמליאל\"",
+      "description": "\"״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!\"",
+      "address": "\"אצ\"ל 85, רמת-גן\"",
+      "last_delivery_time": "16:00",
+      "products": [
+        {
+          "id": "1",
+          "title": "\"עגבנייה\"",
+          "description": null,
+          "price": 8.67,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1
+        },
+        {
+          "id": "2",
+          "title": "\"מלפפון\"",
+          "description": null,
+          "price": 11.2,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1
+        },
+        {
+          "id": "3",
+          "title": "\"מלפפון\"",
+          "description": null,
+          "price": 11.2,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1
+        },
+        {
+          "id": "4",
+          "title": "\"פלפל אדום\"",
+          "description": null,
+          "price": 8.11,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1
+        },
+        {
+          "id": "5",
+          "title": "\"קישוא\"",
+          "description": null,
+          "price": 9.43,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 1
+        },
+        {
+          "id": "6",
+          "title": "\"פינק ליידי\"",
+          "description": null,
+          "price": 25.6,
+          "unit_type": 1,
+          "is_available": true,
+          "category": 2
+        },
+        {
+          "id": "7",
+          "title": "\"פטריות שמפניון\"",
+          "description": null,
+          "price": 14.43,
+          "unit_type": 2,
+          "is_available": true,
+          "category": 3
+        },
+        {
+          "id": "8",
+          "title": "\"קרמבולה\"",
+          "description": null,
+          "price": 37.2,
+          "unit_type": 2,
+          "is_available": true,
+          "category": 4
+        }
+      ],
+      "working_days": [
+        {
+          "day": "sunday",
+          "start": "00:00",
+          "end": "00:00",
+          "enabled": false
+        },
+        {
+          "day": "monday",
+          "start": "8:00",
+          "end": "18:00",
+          "enabled": true
+        },
+        {
+          "day": "tuesday",
+          "start": "8:00",
+          "end": "18:00",
+          "enabled": true
+        },
+        {
+          "day": "wednesday",
+          "start": "8:00",
+          "end": "18:00",
+          "enabled": true
+        },
+        {
+          "day": "thrusday",
+          "start": "8:00",
+          "end": "18:00",
+          "enabled": true
+        },
+        {
+          "day": "friday",
+          "start": "08:00",
+          "end": "14:00",
+          "enabled": true
+        },
+        {
+          "day": "saturday",
+          "start": "00:00",
+          "end": "00:00",
+          "enabled": false
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": "\"ירקות\""
+        },
+        {
+          "id": 2,
+          "name": "\"פירות\""
+        },
+        {
+          "id": 3,
+          "name": "\"ארוזים\""
+        },
+        {
+          "id": 4,
+          "name": "\"מיוחדים\""
+        }
+      ]
     }
   ]
 }
