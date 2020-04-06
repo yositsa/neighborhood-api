@@ -15,7 +15,8 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "tomato.png"
+          "image" : "tomato.png",
+          "itemsCountForShoppingCart" : 0
         },
         {
           "id": "2",
@@ -25,7 +26,8 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "cucumber.png"
+          "image" : "cucumber.png",
+          "itemsCountForShoppingCart" : 0
         },
         {
           "id": "3",
@@ -35,7 +37,8 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "eggplanet.png"
+          "image" : "eggplanet.png",
+          "itemsCountForShoppingCart" : 0
         },
         {
           "id": "4",
@@ -45,7 +48,8 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "red_pepper.png"
+          "image" : "red_pepper.png",
+          "itemsCountForShoppingCart" : 0
         },
         {
           "id": "5",
@@ -55,7 +59,8 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "zucchini.png"
+          "image" : "zucchini.png",
+          "itemsCountForShoppingCart" : 0
         },
         {
           "id": "6",
@@ -65,7 +70,8 @@
           "unit_type": 1,
           "is_available": true,
           "category": 2,
-          "image" : "apple_pink_lady.png"
+          "image" : "apple_pink_lady.png",
+          "itemsCountForShoppingCart" : 0
         },
         {
           "id": "7",
@@ -75,7 +81,8 @@
           "unit_type": 2,
           "is_available": true,
           "category": 3,
-          "image" : "champignon.png"
+          "image" : "champignon.png",
+          "itemsCountForShoppingCart" : 0
         },
         {
           "id": "8",
@@ -85,7 +92,8 @@
           "unit_type": 2,
           "is_available": true,
           "category": 4,
-          "image" : ""
+          "image" : "",
+          "itemsCountForShoppingCart" : 0
         }
       ],
       "working_days": [
