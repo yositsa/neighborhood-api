@@ -6,6 +6,7 @@
       "description": "״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!",
       "address": "אצל 85, רמת-גן",
       "last_delivery_time": "16:00",
+      "image" : "image_veg.png"
       "products": [
         {
           "id": "1",
@@ -15,8 +16,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "tomato.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "tomato.png"
         },
         {
           "id": "2",
@@ -26,8 +26,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "cucumber.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "cucumber.png"
         },
         {
           "id": "3",
@@ -37,8 +36,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "eggplanet.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "eggplanet.png"
         },
         {
           "id": "4",
@@ -48,8 +46,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "red_pepper.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "red_pepper.png"
         },
         {
           "id": "5",
@@ -59,8 +56,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "zucchini.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "zucchini.png"
         },
         {
           "id": "6",
@@ -70,8 +66,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 2,
-          "image" : "apple_pink_lady.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "apple_pink_lady.png"
         },
         {
           "id": "7",
@@ -81,8 +76,7 @@
           "unit_type": 2,
           "is_available": true,
           "category": 3,
-          "image" : "champignon.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "champignon.png"
         },
         {
           "id": "8",
@@ -92,8 +86,7 @@
           "unit_type": 2,
           "is_available": true,
           "category": 4,
-          "image" : "",
-          "itemsCountForShoppingCart" : 0
+          "image" : ""
         }
       ],
       "working_days": [
@@ -165,6 +158,7 @@
       "description": "״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!",
       "address": "אצל 85, רמת-גן",
       "last_delivery_time": "16:00",
+      "image" : "image_butcher.png"
       "products": [
         {
           "id": "1",
@@ -174,8 +168,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "tomato.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "tomato.png"
         },
         {
           "id": "2",
@@ -185,8 +178,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "cucumber.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "cucumber.png"
         },
         {
           "id": "3",
@@ -196,8 +188,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "eggplanet.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "eggplanet.png"
         },
         {
           "id": "4",
@@ -207,8 +198,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "red_pepper.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "red_pepper.png"
         },
         {
           "id": "5",
@@ -218,8 +208,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : "zucchini.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "zucchini.png"
         },
         {
           "id": "6",
@@ -229,8 +218,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 2,
-          "image" : "apple_pink_lady.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "apple_pink_lady.png"
         },
         {
           "id": "7",
@@ -240,8 +228,7 @@
           "unit_type": 2,
           "is_available": true,
           "category": 3,
-          "image" : "champignon.png",
-          "itemsCountForShoppingCart" : 0
+          "image" : "champignon.png"
         },
         {
           "id": "8",
@@ -251,8 +238,7 @@
           "unit_type": 2,
           "is_available": true,
           "category": 4,
-          "image" : "",
-          "itemsCountForShoppingCart" : 0
+          "image" : ""
         }
       ],
       "working_days": [
