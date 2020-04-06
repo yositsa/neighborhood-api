@@ -25,7 +25,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : ""
+          "image" : "cucumber.png"
         },
         {
           "id": "3",
@@ -35,7 +35,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : ""
+          "image" : "eggplanet.png"
         },
         {
           "id": "4",
@@ -45,7 +45,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : ""
+          "image" : "red_pepper.png"
         },
         {
           "id": "5",
@@ -55,7 +55,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 1,
-          "image" : ""
+          "image" : "zucchini.png"
         },
         {
           "id": "6",
@@ -65,7 +65,7 @@
           "unit_type": 1,
           "is_available": true,
           "category": 2,
-          "image" : ""
+          "image" : "apple_pink_lady.png"
         },
         {
           "id": "7",
@@ -75,7 +75,7 @@
           "unit_type": 2,
           "is_available": true,
           "category": 3,
-          "image" : ""
+          "image" : "champignon.png"
         },
         {
           "id": "8",
