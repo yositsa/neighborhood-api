@@ -7,6 +7,7 @@
       "address": "אצל 85, רמת-גן",
       "last_delivery_time": "16:00",
       "image" : "image_veg.png",
+      "min_order" : 100,
       "products": [
         {
           "id": "1",
@@ -159,6 +160,7 @@
       "address": "אצל 85, רמת-גן",
       "last_delivery_time": "16:00",
       "image" : "image_butcher.png",
+      "min_order" : 100,
       "products": [
         {
           "id": "1",
