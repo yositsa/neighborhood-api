@@ -1,310 +1,1457 @@
 {
-  "ShopData": [
+  "categories": [
     {
-      "id": 1336,
-      "name": "בית הבשר של גמליאל",
-      "description": "״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!",
-      "address": "אצל 85, רמת-גן",
-      "last_delivery_time": "16:00",
-      "image" : "image_veg.png",
-      "min_order" : 100,
+      "id": 1,
+      "name": "ירקות"
+    },
+    {
+      "id": 2,
+      "name": "פירות"
+    },
+    {
+      "id": 3,
+      "name": "ירק טרי ועשבי תיבול"
+    },
+    {
+      "id": 4,
+      "name": "נבטים ופטריות"
+    },
+    {
+      "id": 5,
+      "name": "בשר"
+    },
+    {
+      "id": 6,
+      "name": "עופות"
+    },
+    {
+      "id": 7,
+      "name": "דגים"
+    },
+    {
+      "id": 8,
+      "name": "קפואים - בשר"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "אלדר",
+      "last_name": "צפר",
+      "telephone": "0549101944",
+      "address": "דרך נגבה 71, רמת-גן",
+      "date_registered": "2020-04-09T11:21:18+0000"
+    },
+    {
+      "id": 2,
+      "first_name": "יוסי",
+      "last_name": "צפר",
+      "telephone": "0508855597",
+      "address": "דרך יצחק רבין 33, גבעתיים",
+      "date_registered": "2020-04-09T11:21:18+0000"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "user_name": "אלדר צפר",
+      "user_telephone": "0509101944",
+      "shop_id": 1,
+      "date": "2020-04-09T11:21:18+0000",
+      "supply_type": 1,
+      "status": 1,
+      "products": "",
+      "total_price": ""
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "user_name": "יוסי צפר",
+      "user_telephone": "0508855597",
+      "shop_id": 1,
+      "date": "2020-04-09T11:21:18+0000",
+      "supply_type": 1,
+      "status": 2,
+      "products": "",
+      "total_price": ""
+    }
+  ],
+  "shops": [
+    {
+      "id": 1,
+      "name": "מור פירות וירקות",
+      "description": "חנות ירקות מעולה חבל על הזמן, תיאור של החנות נכנס פה",
+      "address": "דרך יצחק רבין 28, תל-אביב",
+      "last_delivery_time": "1899-12-30T19:39:20.000Z",
+      "image": "image_veg.png",
+      "min_order": 100,
       "products": [
         {
-          "id": "1",
-          "title": "עגבנייה",
-          "description": "",
-          "price": 8.67,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "tomato.png"
-        },
-        {
-          "id": "2",
-          "title": "מלפפון",
-          "description": "",
-          "price": 11.2,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "cucumber.png"
-        },
-        {
-          "id": "3",
-          "title": "חציל",
-          "description": "",
-          "price": 9.6,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "eggplanet.png"
-        },
-        {
-          "id": "4",
-          "title": "פלפל אדום",
-          "description": "",
-          "price": 8.11,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "red_pepper.png"
-        },
-        {
-          "id": "5",
-          "title": "קישוא",
-          "description": "",
-          "price": 9.43,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "zucchini.png"
-        },
-        {
-          "id": "6",
-          "title": "פינק ליידי",
-          "description": "",
-          "price": 25.6,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 2,
-          "image" : "apple_pink_lady.png"
-        },
-        {
-          "id": "7",
-          "title": "פטריות שמפניון",
-          "description": "",
-          "price": 14.43,
-          "unit_type": 2,
-          "is_available": true,
-          "category": 3,
-          "image" : "champignon.png"
-        },
-        {
-          "id": "8",
-          "title": "קרמבולה",
-          "description": "",
-          "price": 37.2,
-          "unit_type": 2,
-          "is_available": true,
-          "category": 4,
-          "image" : ""
-        }
-      ],
-      "working_days": [
-        {
-          "day": "sunday",
-          "start": "00:00",
-          "end": "00:00",
-          "enabled": false
-        },
-        {
-          "day": "monday",
-          "start": "8:00",
-          "end": "18:00",
-          "enabled": true
-        },
-        {
-          "day": "tuesday",
-          "start": "8:00",
-          "end": "18:00",
-          "enabled": true
-        },
-        {
-          "day": "wednesday",
-          "start": "8:00",
-          "end": "18:00",
-          "enabled": true
-        },
-        {
-          "day": "thrusday",
-          "start": "8:00",
-          "end": "18:00",
-          "enabled": true
-        },
-        {
-          "day": "friday",
-          "start": "08:00",
-          "end": "14:00",
-          "enabled": true
-        },
-        {
-          "day": "saturday",
-          "start": "00:00",
-          "end": "00:00",
-          "enabled": false
-        }
-      ],
-      "categories": [
-        {
           "id": 1,
-          "name": "ירקות"
+          "product_id": 1,
+          "description": "",
+          "price": 23.9,
+          "unit_type": 1,
+          "is_available": true
         },
         {
           "id": 2,
-          "name": "פירות"
+          "product_id": 2,
+          "description": "",
+          "price": 23.9,
+          "unit_type": 1,
+          "is_available": true
         },
         {
           "id": 3,
-          "name": "ארוזים"
+          "product_id": 3,
+          "description": "",
+          "price": 19.9,
+          "unit_type": 1,
+          "is_available": true
         },
         {
           "id": 4,
-          "name": "מיוחדים"
+          "product_id": 4,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": false
+        },
+        {
+          "id": 5,
+          "product_id": 5,
+          "description": "",
+          "price": 29.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 6,
+          "product_id": 6,
+          "description": "",
+          "price": 11.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 7,
+          "product_id": 7,
+          "description": "",
+          "price": 16.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 8,
+          "product_id": 8,
+          "description": "",
+          "price": 11.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 9,
+          "product_id": 9,
+          "description": "",
+          "price": 13.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 10,
+          "product_id": 10,
+          "description": "",
+          "price": 15.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 11,
+          "product_id": 11,
+          "description": "",
+          "price": 6.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 12,
+          "product_id": 12,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 13,
+          "product_id": 13,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 14,
+          "product_id": 14,
+          "description": "",
+          "price": 14.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 15,
+          "product_id": 15,
+          "description": "",
+          "price": 34.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 16,
+          "product_id": 16,
+          "description": "",
+          "price": 5.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 17,
+          "product_id": 17,
+          "description": "",
+          "price": 4.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 18,
+          "product_id": 18,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 19,
+          "product_id": 19,
+          "description": "",
+          "price": 14.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 20,
+          "product_id": 20,
+          "description": "",
+          "price": 16.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 21,
+          "product_id": 21,
+          "description": "",
+          "price": 19.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 22,
+          "product_id": 22,
+          "description": "",
+          "price": 5.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 23,
+          "product_id": 23,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": false
+        },
+        {
+          "id": 24,
+          "product_id": 24,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 25,
+          "product_id": 25,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 26,
+          "product_id": 26,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 27,
+          "product_id": 27,
+          "description": "",
+          "price": 4.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 28,
+          "product_id": 28,
+          "description": "",
+          "price": 19.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 29,
+          "product_id": 29,
+          "description": "",
+          "price": 15.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 30,
+          "product_id": 30,
+          "description": "",
+          "price": 15.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 31,
+          "product_id": 31,
+          "description": "",
+          "price": 14.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 32,
+          "product_id": 32,
+          "description": "",
+          "price": 13.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 33,
+          "product_id": 33,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 34,
+          "product_id": 34,
+          "description": "",
+          "price": 15.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 35,
+          "product_id": 35,
+          "description": "",
+          "price": 18.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 36,
+          "product_id": 36,
+          "description": "",
+          "price": 17.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 37,
+          "product_id": 37,
+          "description": "",
+          "price": 12.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 38,
+          "product_id": 38,
+          "description": "",
+          "price": 12.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 39,
+          "product_id": 39,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 40,
+          "product_id": 40,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 41,
+          "product_id": 41,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 42,
+          "product_id": 42,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 43,
+          "product_id": 43,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 44,
+          "product_id": 44,
+          "description": "",
+          "price": 12.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 45,
+          "product_id": 45,
+          "description": "",
+          "price": 23.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 46,
+          "product_id": 46,
+          "description": "",
+          "price": 17.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 47,
+          "product_id": 47,
+          "description": "",
+          "price": 13.9,
+          "unit_type": 1,
+          "is_available": true
         }
       ]
     },
     {
-      "id": 1337,
-      "name": "מור פירות וירקות",
-      "description": "״בית הבשר גמליאל״, צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים, נקי, טעים, בריא ואיכותי!",
-      "address": "אצל 85, רמת-גן",
-      "last_delivery_time": "16:00",
-      "image" : "image_butcher.png",
-      "min_order" : 100,
+      "id": 2,
+      "name": "בית הבשר של גמליאל",
+      "description": "\"בית הבשר של גמליאל\", צוות מופלא שיביא לכם את הבשר הטוב ביותר כמו שאתם אוהבים. נקי, טעים, בריא ואיכותי!",
+      "address": "אצ\"ל 78 רמת-גן",
+      "last_delivery_time": "1899-12-30T15:39:20.000Z",
+      "image": "image_butcher.png",
+      "min_order": 150,
       "products": [
         {
-          "id": "1",
-          "title": "עגבנייה",
-          "description": "",
-          "price": 8.67,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "tomato.png"
-        },
-        {
-          "id": "2",
-          "title": "מלפפון",
-          "description": "",
-          "price": 11.2,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "cucumber.png"
-        },
-        {
-          "id": "3",
-          "title": "חציל",
-          "description": "",
-          "price": 9.6,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "eggplanet.png"
-        },
-        {
-          "id": "4",
-          "title": "פלפל אדום",
-          "description": "",
-          "price": 8.11,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "red_pepper.png"
-        },
-        {
-          "id": "5",
-          "title": "קישוא",
-          "description": "",
-          "price": 9.43,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 1,
-          "image" : "zucchini.png"
-        },
-        {
-          "id": "6",
-          "title": "פינק ליידי",
-          "description": "",
-          "price": 25.6,
-          "unit_type": 1,
-          "is_available": true,
-          "category": 2,
-          "image" : "apple_pink_lady.png"
-        },
-        {
-          "id": "7",
-          "title": "פטריות שמפניון",
-          "description": "",
-          "price": 14.43,
-          "unit_type": 2,
-          "is_available": true,
-          "category": 3,
-          "image" : "champignon.png"
-        },
-        {
-          "id": "8",
-          "title": "קרמבולה",
-          "description": "",
-          "price": 37.2,
-          "unit_type": 2,
-          "is_available": true,
-          "category": 4,
-          "image" : ""
-        }
-      ],
-      "working_days": [
-        {
-          "day": "sunday",
-          "start": "00:00",
-          "end": "00:00",
-          "enabled": false
-        },
-        {
-          "day": "monday",
-          "start": "8:00",
-          "end": "18:00",
-          "enabled": true
-        },
-        {
-          "day": "tuesday",
-          "start": "8:00",
-          "end": "18:00",
-          "enabled": true
-        },
-        {
-          "day": "wednesday",
-          "start": "8:00",
-          "end": "18:00",
-          "enabled": true
-        },
-        {
-          "day": "thrusday",
-          "start": "8:00",
-          "end": "18:00",
-          "enabled": true
-        },
-        {
-          "day": "friday",
-          "start": "08:00",
-          "end": "14:00",
-          "enabled": true
-        },
-        {
-          "day": "saturday",
-          "start": "00:00",
-          "end": "00:00",
-          "enabled": false
-        }
-      ],
-      "categories": [
-        {
           "id": 1,
-          "name": "ירקות"
+          "product_id": 1,
+          "description": "",
+          "price": 23.9,
+          "unit_type": 1,
+          "is_available": true
         },
         {
           "id": 2,
-          "name": "פירות"
+          "product_id": 2,
+          "description": "",
+          "price": 23.9,
+          "unit_type": 1,
+          "is_available": true
         },
         {
           "id": 3,
-          "name": "ארוזים"
+          "product_id": 3,
+          "description": "",
+          "price": 19.9,
+          "unit_type": 1,
+          "is_available": true
         },
         {
           "id": 4,
-          "name": "מיוחדים"
+          "product_id": 4,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": false
+        },
+        {
+          "id": 5,
+          "product_id": 5,
+          "description": "",
+          "price": 29.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 6,
+          "product_id": 6,
+          "description": "",
+          "price": 11.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 7,
+          "product_id": 7,
+          "description": "",
+          "price": 16.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 8,
+          "product_id": 8,
+          "description": "",
+          "price": 11.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 9,
+          "product_id": 9,
+          "description": "",
+          "price": 13.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 10,
+          "product_id": 10,
+          "description": "",
+          "price": 15.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 11,
+          "product_id": 11,
+          "description": "",
+          "price": 6.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 12,
+          "product_id": 12,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 13,
+          "product_id": 13,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 14,
+          "product_id": 14,
+          "description": "",
+          "price": 14.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 15,
+          "product_id": 15,
+          "description": "",
+          "price": 34.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 16,
+          "product_id": 16,
+          "description": "",
+          "price": 5.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 17,
+          "product_id": 17,
+          "description": "",
+          "price": 4.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 18,
+          "product_id": 18,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 19,
+          "product_id": 19,
+          "description": "",
+          "price": 14.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 20,
+          "product_id": 20,
+          "description": "",
+          "price": 16.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 21,
+          "product_id": 21,
+          "description": "",
+          "price": 19.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 22,
+          "product_id": 22,
+          "description": "",
+          "price": 5.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 23,
+          "product_id": 23,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": false
+        },
+        {
+          "id": 24,
+          "product_id": 24,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 25,
+          "product_id": 25,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 26,
+          "product_id": 26,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 27,
+          "product_id": 27,
+          "description": "",
+          "price": 4.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 28,
+          "product_id": 28,
+          "description": "",
+          "price": 19.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 29,
+          "product_id": 29,
+          "description": "",
+          "price": 15.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 30,
+          "product_id": 30,
+          "description": "",
+          "price": 15.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 31,
+          "product_id": 31,
+          "description": "",
+          "price": 14.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 32,
+          "product_id": 32,
+          "description": "",
+          "price": 13.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 33,
+          "product_id": 33,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 34,
+          "product_id": 34,
+          "description": "",
+          "price": 15.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 35,
+          "product_id": 35,
+          "description": "",
+          "price": 18.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 36,
+          "product_id": 36,
+          "description": "",
+          "price": 17.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 37,
+          "product_id": 37,
+          "description": "",
+          "price": 12.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 38,
+          "product_id": 38,
+          "description": "",
+          "price": 12.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 39,
+          "product_id": 39,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 40,
+          "product_id": 40,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 41,
+          "product_id": 41,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 2,
+          "is_available": true
+        },
+        {
+          "id": 42,
+          "product_id": 42,
+          "description": "",
+          "price": 7.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 43,
+          "product_id": 43,
+          "description": "",
+          "price": 9.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 44,
+          "product_id": 44,
+          "description": "",
+          "price": 12.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 45,
+          "product_id": 45,
+          "description": "",
+          "price": 23.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 46,
+          "product_id": 46,
+          "description": "",
+          "price": 17.9,
+          "unit_type": 1,
+          "is_available": true
+        },
+        {
+          "id": 47,
+          "product_id": 47,
+          "description": "",
+          "price": 13.9,
+          "unit_type": 1,
+          "is_available": true
         }
-      ]
-    }
-  ]
-}
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "title": "אבוקדו אס מובחר",
+        "category": 1
+      },
+      {
+        "id": 2,
+        "title": "אבוקדו מובחר",
+        "category": 1
+      },
+      {
+        "id": 3,
+        "title": "אבוקדו ריד מובחר",
+        "category": 1
+      },
+      {
+        "id": 4,
+        "title": "אבטיח",
+        "category": 2
+      },
+      {
+        "id": 5,
+        "title": "אספרגוס צרור",
+        "category": 1
+      },
+      {
+        "id": 6,
+        "title": "ארטישוק ירוק",
+        "category": 1
+      },
+      {
+        "id": 7,
+        "title": "ארטישוק ירושלמי מארז",
+        "category": 1
+      },
+      {
+        "id": 8,
+        "title": "ארטישוק סגול",
+        "category": 1
+      },
+      {
+        "id": 9,
+        "title": "בטטה",
+        "category": 1
+      },
+      {
+        "id": 10,
+        "title": "במיה",
+        "category": 1
+      },
+      {
+        "id": 11,
+        "title": "בצל ירוק צרור",
+        "category": 1
+      },
+      {
+        "id": 12,
+        "title": "בצל לבן",
+        "category": 1
+      },
+      {
+        "id": 13,
+        "title": "בצל סגול",
+        "category": 1
+      },
+      {
+        "id": 14,
+        "title": "ברוקולי מארז",
+        "category": 1
+      },
+      {
+        "id": 15,
+        "title": "ג'ינג'ר טרי (זנגוויל)",
+        "category": 1
+      },
+      {
+        "id": 16,
+        "title": "גזר ארוז",
+        "category": 1
+      },
+      {
+        "id": 17,
+        "title": "גזר תפזורת",
+        "category": 1
+      },
+      {
+        "id": 18,
+        "title": "דלורית",
+        "category": 1
+      },
+      {
+        "id": 19,
+        "title": "דלעת טרייה",
+        "category": 1
+      },
+      {
+        "id": 20,
+        "title": "דלעת ספגטי",
+        "category": 1
+      },
+      {
+        "id": 21,
+        "title": "דלעת ערמונים",
+        "category": 1
+      },
+      {
+        "id": 22,
+        "title": "חסה ערבית ארוז",
+        "category": 1
+      },
+      {
+        "id": 23,
+        "title": "חצי אבטיח",
+        "category": 2
+      },
+      {
+        "id": 24,
+        "title": "חציל",
+        "category": 1
+      },
+      {
+        "id": 25,
+        "title": "חציל בלאדי",
+        "category": 1
+      },
+      {
+        "id": 26,
+        "title": "כרוב אדום",
+        "category": 1
+      },
+      {
+        "id": 27,
+        "title": "כרוב לבן",
+        "category": 1
+      },
+      {
+        "id": 28,
+        "title": "כרוב ניצנים ארוז",
+        "category": 1
+      },
+      {
+        "id": 29,
+        "title": "כרובית",
+        "category": 1
+      },
+      {
+        "id": 30,
+        "title": "כרישה / פרסה",
+        "category": 1
+      },
+      {
+        "id": 31,
+        "title": "לימון מובחר",
+        "category": 1
+      },
+      {
+        "id": 32,
+        "title": "למון גראס מארז",
+        "category": 1
+      },
+      {
+        "id": 33,
+        "title": "לפת",
+        "category": 1
+      },
+      {
+        "id": 34,
+        "title": "מארז בצלצלי פנינה",
+        "category": 1
+      },
+      {
+        "id": 35,
+        "title": "מארז בצלצלי שאלוט",
+        "category": 1
+      },
+      {
+        "id": 36,
+        "title": "מארז גזר בצבעים",
+        "category": 1
+      },
+      {
+        "id": 37,
+        "title": "מלון גליה",
+        "category": 2
+      },
+      {
+        "id": 38,
+        "title": "מלון כתום",
+        "category": 2
+      },
+      {
+        "id": 39,
+        "title": "מלפפון",
+        "category": 1
+      },
+      {
+        "id": 40,
+        "title": "מלפפון בייבי מארז",
+        "category": 1
+      },
+      {
+        "id": 41,
+        "title": "סלק מוכן אורגני בוואקום",
+        "category": 1
+      },
+      {
+        "id": 42,
+        "title": "סלק אדום",
+        "category": 1
+      },
+      {
+        "id": 43,
+        "title": "עגבניות",
+        "category": 1
+      },
+      {
+        "id": 44,
+        "title": "עגבניות שרי",
+        "category": 1
+      },
+      {
+        "id": 45,
+        "title": "עגבניות שרי כתום",
+        "category": 1
+      },
+      {
+        "id": 46,
+        "title": "עגבניות שרי תמר",
+        "category": 1
+      },
+      {
+        "id": 47,
+        "title": "פול ירוק טרי",
+        "category": 1
+      },
+      {
+        "id": 48,
+        "title": "פלפל אדום",
+        "category": 1
+      },
+      {
+        "id": 49,
+        "title": "פלפל חלפיניו חריף מארז",
+        "category": 1
+      },
+      {
+        "id": 50,
+        "title": "פלפל חריף",
+        "category": 1
+      },
+      {
+        "id": 51,
+        "title": "פלפל ירוק",
+        "category": 1
+      },
+      {
+        "id": 52,
+        "title": "פלפל כתום",
+        "category": 1
+      },
+      {
+        "id": 53,
+        "title": "פלפל צהוב",
+        "category": 1
+      },
+      {
+        "id": 54,
+        "title": "פלפל שושקה אדום",
+        "category": 1
+      },
+      {
+        "id": 55,
+        "title": "פלפלונים בייבי מארז",
+        "category": 1
+      },
+      {
+        "id": 56,
+        "title": "צנונית בתפזורת",
+        "category": 1
+      },
+      {
+        "id": 57,
+        "title": "צנונית מארז",
+        "category": 1
+      },
+      {
+        "id": 58,
+        "title": "קולורבי",
+        "category": 1
+      },
+      {
+        "id": 59,
+        "title": "קישוא זוקיני ירוק",
+        "category": 1
+      },
+      {
+        "id": 60,
+        "title": "קישוא מובחר",
+        "category": 1
+      },
+      {
+        "id": 61,
+        "title": "קישוא עגול",
+        "category": 1
+      },
+      {
+        "id": 62,
+        "title": "שום ארוז",
+        "category": 1
+      },
+      {
+        "id": 63,
+        "title": "שום ישראלי טרי",
+        "category": 1
+      },
+      {
+        "id": 64,
+        "title": "שומר",
+        "category": 1
+      },
+      {
+        "id": 65,
+        "title": "שעועית ירוקה",
+        "category": 1
+      },
+      {
+        "id": 66,
+        "title": "שעועית רחבה",
+        "category": 1
+      },
+      {
+        "id": 67,
+        "title": "תירס מארז",
+        "category": 1
+      },
+      {
+        "id": 68,
+        "title": "תפוח-אדמה אדום תפזורת",
+        "category": 1
+      },
+      {
+        "id": 69,
+        "title": "תפוח-אדמה לבן תפזורת",
+        "category": 1
+      },
+      {
+        "id": 70,
+        "title": "תרד ניו-זילנדי שטוף שטראוס",
+        "category": 1
+      },
+      {
+        "id": 71,
+        "title": "עלי לבבות קיסר",
+        "category": 3
+      },
+      {
+        "id": 72,
+        "title": "לבבות קיסר משק בכור",
+        "category": 3
+      },
+      {
+        "id": 73,
+        "title": "עלי רומית משק בכור",
+        "category": 3
+      },
+      {
+        "id": 74,
+        "title": "בזיליקום טרי צרור",
+        "category": 3
+      },
+      {
+        "id": 75,
+        "title": "פטרוזיליה צרור",
+        "category": 3
+      },
+      {
+        "id": 76,
+        "title": "כוסברה צרור",
+        "category": 3
+      },
+      {
+        "id": 77,
+        "title": "שמיר צרור",
+        "category": 3
+      },
+      {
+        "id": 78,
+        "title": "נענע צרור",
+        "category": 3
+      },
+      {
+        "id": 79,
+        "title": "קורנית / טימין טרי משק בכור",
+        "category": 3
+      },
+      {
+        "id": 80,
+        "title": "רוקט טרי צרור",
+        "category": 3
+      },
+      {
+        "id": 81,
+        "title": "עלי מנגולד - סלק עלים",
+        "category": 3
+      },
+      {
+        "id": 82,
+        "title": "תרד תורכי משק בכור",
+        "category": 3
+      },
+      {
+        "id": 83,
+        "title": "סלרי עלים",
+        "category": 3
+      },
+      {
+        "id": 84,
+        "title": "סלרי חתוך ארוז",
+        "category": 3
+      },
+      {
+        "id": 85,
+        "title": "עלי קייל מסולסול (ירוק) משק בכור",
+        "category": 3
+      },
+      {
+        "id": 86,
+        "title": "כוסברה מהדרין",
+        "category": 3
+      },
+      {
+        "id": 87,
+        "title": "פטרויזליה מהדרין",
+        "category": 3
+      },
+      {
+        "id": 88,
+        "title": "בצל ירוק מהדרין",
+        "category": 3
+      },
+      {
+        "id": 89,
+        "title": "נענע מהדרין",
+        "category": 3
+      },
+      {
+        "id": 90,
+        "title": "שמיר מהדרין",
+        "category": 3
+      },
+      {
+        "id": 91,
+        "title": "סלרי עלים מהדרין",
+        "category": 3
+      },
+      {
+        "id": 92,
+        "title": "שורש כורכום",
+        "category": 3
+      },
+      {
+        "id": 93,
+        "title": "עירית טרייה משק בכור",
+        "category": 3
+      },
+      {
+        "id": 94,
+        "title": "מרווה טרייה משק בכור",
+        "category": 3
+      },
+      {
+        "id": 95,
+        "title": "ראשי סלנובה כרמל יבולים",
+        "category": 3
+      },
+      {
+        "id": 96,
+        "title": "פאק צו'י",
+        "category": 3
+      },
+      {
+        "id": 97,
+        "title": "שורש פטרוזיליה",
+        "category": 3
+      },
+      {
+        "id": 98,
+        "title": "שורש סלרי",
+        "category": 3
+      },
+      {
+        "id": 99,
+        "title": "עלי בייבי משק בכור",
+        "category": 3
+      },
+      {
+        "id": 100,
+        "title": "חסה סלנובה משק בכור",
+        "category": 3
+      },
+      {
+        "id": 101,
+        "title": "רוזמין טרי משק בכור",
+        "category": 3
+      },
+      {
+        "id": 102,
+        "title": "אורגנו טרי משק בכור",
+        "category": 3
+      },
+      {
+        "id": 103,
+        "title": "מיקס נבטים",
+        "category": 4
+      },
+      {
+        "id": 104,
+        "title": "מיקס נבטים ענק",
+        "category": 4
+      },
+      {
+        "id": 105,
+        "title": "נבטי אלפלפא",
+        "category": 4
+      },
+      {
+        "id": 106,
+        "title": "נבטי ברוקולי",
+        "category": 4
+      },
+      {
+        "id": 107,
+        "title": "נבטי חמניה",
+        "category": 4
+      },
+      {
+        "id": 108,
+        "title": "נבטי חרדל",
+        "category": 4
+      },
+      {
+        "id": 109,
+        "title": "נבטים סינים",
+        "category": 4
+      },
+      {
+        "id": 110,
+        "title": "פטריות מלך היער",
+        "category": 4
+      },
+      {
+        "id": 111,
+        "title": "פטריות שמפניון",
+        "category": 4
+      },
+      {
+        "id": 112,
+        "title": "פטריות פורטובלו",
+        "category": 4
+      },
+      {
+        "id": 113,
+        "title": "פטריות שיטאקי",
+        "category": 4
+      },
+      {
+        "id": 114,
+        "title": "פיטריות שימאגי חום",
+        "category": 4
+      },
+      {
+        "id": 115,
+        "title": "פיטריות שימאגי לבן",
+        "category": 4
+      },
+      {
+        "id": 116,
+        "title": "פטריות שינוקי",
+        "category": 4
+      },
+      {
+        "id": 117,
+        "title": "נבטי צנונית",
+        "category": 4
+      },
+      {
+        "id": 118,
+        "title": "נבטי קייל",
+        "category": 4
+      },
+      {
+        "id": 119,
+        "title": "נבטוטים",
+        "category": 4
+      },
+      {
+        "id": 120,
+        "title": "נבטי עדשים שחורות",
+        "category": 4
+      }
+    ]
+  }
