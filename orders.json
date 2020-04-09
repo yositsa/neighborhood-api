@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "user_name": "אלדר צפר",
+        "user_telephone": "0509101944",
+        "shop_id": 1,
+        "date": "2020-04-09T11:21:18+0000",
+        "supply_type": 1,
+        "status": 1,
+        "products": "",
+        "total_price": ""
+    },
+    {
+        "id": 2,
+        "user_id": 2,
+        "user_name": "יוסי צפר",
+        "user_telephone": "0508855597",
+        "shop_id": 1,
+        "date": "2020-04-09T11:21:18+0000",
+        "supply_type": 1,
+        "status": 2,
+        "products": "",
+        "total_price": ""
+    }
+]

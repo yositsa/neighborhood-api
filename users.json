@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "first_name": "אלדר",
+        "last_name": "צפר",
+        "telephone": "0549101944",
+        "address": "דרך נגבה 71, רמת-גן",
+        "date_registered": "2020-04-09T11:21:18+0000"
+    },
+    {
+        "id": 2,
+        "first_name": "יוסי",
+        "last_name": "צפר",
+        "telephone": "0508855597",
+        "address": "דרך יצחק רבין 33, גבעתיים",
+        "date_registered": "2020-04-09T11:21:18+0000"
+    }
+]
