@@ -736,7 +736,7 @@
           "price": 34.9,
           "unit_type": 1,
           "is_available": true,
-		  "min_jump": "0.1"
+		  "min_jump": 0.1
         },
         {
           "id": 16,
@@ -1024,7 +1024,7 @@
           "price": 13.9,
           "unit_type": 1,
           "is_available": true,
-		  "min_jump": 0.5
+          "min_jump": 0.5
         }
       ]
     }
