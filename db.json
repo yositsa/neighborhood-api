@@ -203,7 +203,7 @@
           "price": 7.9,
           "unit_type": 1,
           "is_available": false,
-          "min_jump": 0.5
+          "min_jump": 4.0
         },
         {
           "id": 5,
