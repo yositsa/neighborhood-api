@@ -175,7 +175,8 @@
           "description": "",
           "price": 23.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 2,
@@ -183,7 +184,8 @@
           "description": "",
           "price": 23.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 3,
@@ -191,7 +193,8 @@
           "description": "",
           "price": 19.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 4,
@@ -199,7 +202,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": false
+          "is_available": false,
+		  "min_jump": ""
         },
         {
           "id": 5,
@@ -207,7 +211,8 @@
           "description": "",
           "price": 29.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 6,
@@ -215,7 +220,8 @@
           "description": "",
           "price": 11.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 7,
@@ -223,7 +229,8 @@
           "description": "",
           "price": 16.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 8,
@@ -231,7 +238,8 @@
           "description": "",
           "price": 11.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 9,
@@ -239,7 +247,8 @@
           "description": "",
           "price": 13.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 10,
@@ -247,7 +256,8 @@
           "description": "",
           "price": 15.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 11,
@@ -255,7 +265,8 @@
           "description": "",
           "price": 6.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 12,
@@ -263,7 +274,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 13,
@@ -271,7 +283,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 14,
@@ -279,7 +292,8 @@
           "description": "",
           "price": 14.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 15,
@@ -287,7 +301,8 @@
           "description": "",
           "price": 34.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": "0.1"
         },
         {
           "id": 16,
@@ -295,7 +310,8 @@
           "description": "",
           "price": 5.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 17,
@@ -303,7 +319,8 @@
           "description": "",
           "price": 4.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 18,
@@ -311,7 +328,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 19,
@@ -319,7 +337,8 @@
           "description": "",
           "price": 14.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 20,
@@ -327,7 +346,8 @@
           "description": "",
           "price": 16.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 21,
@@ -335,7 +355,8 @@
           "description": "",
           "price": 19.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 22,
@@ -343,7 +364,8 @@
           "description": "",
           "price": 5.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 23,
@@ -351,7 +373,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": false
+          "is_available": false,
+		  "min_jump": ""
         },
         {
           "id": 24,
@@ -359,7 +382,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 25,
@@ -367,7 +391,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 26,
@@ -375,7 +400,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 27,
@@ -383,7 +409,8 @@
           "description": "",
           "price": 4.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 28,
@@ -391,7 +418,8 @@
           "description": "",
           "price": 19.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 29,
@@ -399,7 +427,8 @@
           "description": "",
           "price": 15.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 30,
@@ -407,7 +436,8 @@
           "description": "",
           "price": 15.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 31,
@@ -415,7 +445,8 @@
           "description": "",
           "price": 14.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 32,
@@ -423,7 +454,8 @@
           "description": "",
           "price": 13.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 33,
@@ -431,7 +463,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 34,
@@ -439,7 +472,8 @@
           "description": "",
           "price": 15.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 35,
@@ -447,7 +481,8 @@
           "description": "",
           "price": 18.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 36,
@@ -455,7 +490,8 @@
           "description": "",
           "price": 17.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 37,
@@ -463,7 +499,8 @@
           "description": "",
           "price": 12.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 38,
@@ -471,7 +508,8 @@
           "description": "",
           "price": 12.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 39,
@@ -479,7 +517,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 40,
@@ -487,7 +526,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 41,
@@ -495,7 +535,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 42,
@@ -503,7 +544,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 43,
@@ -511,7 +553,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 44,
@@ -519,7 +562,8 @@
           "description": "",
           "price": 12.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 45,
@@ -527,7 +571,8 @@
           "description": "",
           "price": 23.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 46,
@@ -535,7 +580,8 @@
           "description": "",
           "price": 17.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 47,
@@ -543,7 +589,8 @@
           "description": "",
           "price": 13.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": "0.5"
         }
       ]
     },
@@ -562,7 +609,8 @@
           "description": "",
           "price": 23.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 2,
@@ -570,7 +618,8 @@
           "description": "",
           "price": 23.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 3,
@@ -578,7 +627,8 @@
           "description": "",
           "price": 19.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 4,
@@ -586,7 +636,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": false
+          "is_available": false,
+		  "min_jump": ""
         },
         {
           "id": 5,
@@ -594,7 +645,8 @@
           "description": "",
           "price": 29.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 6,
@@ -602,7 +654,8 @@
           "description": "",
           "price": 11.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 7,
@@ -610,7 +663,8 @@
           "description": "",
           "price": 16.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 8,
@@ -618,7 +672,8 @@
           "description": "",
           "price": 11.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 9,
@@ -626,7 +681,8 @@
           "description": "",
           "price": 13.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 10,
@@ -634,7 +690,8 @@
           "description": "",
           "price": 15.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 11,
@@ -642,7 +699,8 @@
           "description": "",
           "price": 6.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 12,
@@ -650,7 +708,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 13,
@@ -658,7 +717,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 14,
@@ -666,7 +726,8 @@
           "description": "",
           "price": 14.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 15,
@@ -674,7 +735,8 @@
           "description": "",
           "price": 34.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": "0.1"
         },
         {
           "id": 16,
@@ -682,7 +744,8 @@
           "description": "",
           "price": 5.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 17,
@@ -690,7 +753,8 @@
           "description": "",
           "price": 4.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 18,
@@ -698,7 +762,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 19,
@@ -706,7 +771,8 @@
           "description": "",
           "price": 14.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 20,
@@ -714,7 +780,8 @@
           "description": "",
           "price": 16.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 21,
@@ -722,7 +789,8 @@
           "description": "",
           "price": 19.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 22,
@@ -730,7 +798,8 @@
           "description": "",
           "price": 5.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 23,
@@ -738,7 +807,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": false
+          "is_available": false,
+		  "min_jump": ""
         },
         {
           "id": 24,
@@ -746,7 +816,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 25,
@@ -754,7 +825,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 26,
@@ -762,7 +834,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 27,
@@ -770,7 +843,8 @@
           "description": "",
           "price": 4.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 28,
@@ -778,7 +852,8 @@
           "description": "",
           "price": 19.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 29,
@@ -786,7 +861,8 @@
           "description": "",
           "price": 15.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 30,
@@ -794,7 +870,8 @@
           "description": "",
           "price": 15.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 31,
@@ -802,7 +879,8 @@
           "description": "",
           "price": 14.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 32,
@@ -810,7 +888,8 @@
           "description": "",
           "price": 13.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 33,
@@ -818,7 +897,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 34,
@@ -826,7 +906,8 @@
           "description": "",
           "price": 15.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 35,
@@ -834,7 +915,8 @@
           "description": "",
           "price": 18.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 36,
@@ -842,7 +924,8 @@
           "description": "",
           "price": 17.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 37,
@@ -850,7 +933,8 @@
           "description": "",
           "price": 12.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 38,
@@ -858,7 +942,8 @@
           "description": "",
           "price": 12.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 39,
@@ -866,7 +951,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 40,
@@ -874,7 +960,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 41,
@@ -882,7 +969,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 2,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 42,
@@ -890,7 +978,8 @@
           "description": "",
           "price": 7.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 43,
@@ -898,7 +987,8 @@
           "description": "",
           "price": 9.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 44,
@@ -906,7 +996,8 @@
           "description": "",
           "price": 12.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 45,
@@ -914,7 +1005,8 @@
           "description": "",
           "price": 23.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 46,
@@ -922,7 +1014,8 @@
           "description": "",
           "price": 17.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": ""
         },
         {
           "id": 47,
@@ -930,7 +1023,8 @@
           "description": "",
           "price": 13.9,
           "unit_type": 1,
-          "is_available": true
+          "is_available": true,
+		  "min_jump": "0.5"
         }
       ]
     }
