@@ -228,7 +228,7 @@
           "product_id": 7,
           "description": "",
           "price": 16.9,
-          "unit_type": 1,
+          "unit_type": 2,
           "is_available": true,
           "min_jump": 0.5
         },
@@ -662,7 +662,7 @@
           "product_id": 7,
           "description": "",
           "price": 16.9,
-          "unit_type": 1,
+          "unit_type": 2,
           "is_available": true,
           "min_jump": 0.5
         },
